@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Feature1</string>
+
+    <string name="go_to_b">Go to B</string>
+    <string name="go_to_c">Go to C</string>
+    <string name="go_to_e">Go to E</string>
+    <string name="go_to_f">Go to F</string>
+
+    <string name="screen_a">Screen A</string>
+    <string name="screen_b">Screen B</string>
+    <string name="screen_c">Screen C</string>
+    <string name="screen_d">Screen D</string>
+    <string name="screen_e">Screen E</string>
+    <string name="screen_f">Screen F</string>
+</resources>

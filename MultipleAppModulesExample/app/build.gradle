@@ -1,0 +1,43 @@
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+apply plugin: 'kotlin-kapt'
+
+android {
+    compileSdkVersion 28
+    defaultConfig {
+        applicationId "me.abunka.multipleappmodules"
+        minSdkVersion 21
+        targetSdkVersion 28
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    implementation"org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    implementation 'com.android.support:appcompat-v7:28.0.0'
+    implementation 'com.android.support:design:28.0.0'
+    implementation 'com.android.support.constraint:constraint-layout:1.1.3'
+
+    implementation 'com.google.dagger:dagger-android:2.17'
+    implementation 'com.google.dagger:dagger-android-support:2.17'
+    kapt 'com.google.dagger:dagger-android-processor:2.17'
+    implementation 'com.google.dagger:dagger:2.17'
+    kapt 'com.google.dagger:dagger-compiler:2.17'
+
+    // https://mvnrepository.com/artifact/javax.annotation/javax.annotation-api
+    implementation group: 'javax.annotation', name: 'javax.annotation-api', version: '1.3.2'
+
+    implementation project(":login")
+    implementation project(":feature1")
+    implementation project(":feature2")
+
+}

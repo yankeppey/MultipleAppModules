@@ -1,0 +1,13 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="me.abunka.multipleappmodules.feature1" >
+
+    <application>
+        <activity
+            android:name="me.abunka.multipleappmodules.feature1.ActivityB"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name="me.abunka.multipleappmodules.feature1.ActivityC"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+    </application>
+
+</manifest>
