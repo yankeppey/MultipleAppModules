@@ -1,0 +1,9 @@
+<resources>
+    <string name="go_to_c">Go to C</string>
+    <string name="go_to_e">Go to E</string>
+    <string name="go_to_f">Go to F</string>
+
+    <string name="screen_d">Screen D</string>
+    <string name="screen_e">Screen E</string>
+    <string name="screen_f">Screen F</string>
+</resources>

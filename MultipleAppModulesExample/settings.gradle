@@ -1,0 +1,1 @@
+include ':app', ':login', ':feature2', ':feature1', ':feature1app', ':feature2app'

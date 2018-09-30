@@ -1,0 +1,11 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="me.abunka.multipleappmodules.login" >
+
+    <application>
+        <activity
+            android:name="me.abunka.multipleappmodules.login.LoginActivity">
+        </activity>
+    </application>
+
+
+</manifest>
